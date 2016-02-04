@@ -1,0 +1,19 @@
+{
+  "name": "Silent Sauron",
+  "description": "Sensu server and API.",
+  "success_url": "/info",
+  "env": {
+    "REDIS_URL": {
+      "description": "Redis URL.",
+      "required": false
+    },
+    "RABBITMQ_URL": {
+      "description": "RabbitMQ URL.",
+      "required": false
+    }
+  },
+  "addons": [
+    "redistogo:nano",
+    "cloudamqp:lemur"
+  ]
+}
