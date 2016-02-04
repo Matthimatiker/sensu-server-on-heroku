@@ -1,6 +1,6 @@
 {
   "name": "Sensu Server & API on Heroku",
-  "description": "Sensu server and API.",
+  "description": "Sensu server and API hosted on Heroku.",
   "success_url": "/info",
   "env": {
     "REDIS_URL": {
