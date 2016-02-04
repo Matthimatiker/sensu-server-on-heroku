@@ -1,5 +1,5 @@
 {
-  "name": "Silent Sauron",
+  "name": "Sensu Server & API on Heroku",
   "description": "Sensu server and API.",
   "success_url": "/info",
   "env": {
